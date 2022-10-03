@@ -1,4 +1,4 @@
 resource "aws_instance" "myec2" {
-  ami = var.ami
+  ami           = var.ami
   instance_type = var.instancetype
 }
